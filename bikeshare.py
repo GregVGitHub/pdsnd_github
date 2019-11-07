@@ -67,6 +67,7 @@ def load_data(city, month, day):
 
     df = pd.read_csv(CITY_DATA[city])
     df['Start Time'] = pd.to_datetime(df['Start Time'])
+    df['End Time'] = pd.to_datetime(df['End Time'])
 
     if month != 'all':
         df = df[df['Start Time'].dt.month == months_dict[month]]
