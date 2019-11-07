@@ -13,6 +13,9 @@ You will learn about bike share use in Chicago, New York City, and Washington by
 
 ### Files used
 In this project, we use data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
+* chicago.csv
+* washington.csv
+* new_york_city.csv
 
 ### Credits
 Udacity template
