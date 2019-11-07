@@ -62,7 +62,7 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
 
-    months_dict = {'january' : 1 , 'february' : 2 , 'march' : 3 , 'april' : 4 , 'may' : 5 , 'june' : 6}
+    months_dict = {'january' : 1 , 'february' : 2 , 'march' : 3 , 'april' : 4 , 'may' : 5 , 'june' : 6, 'july' : 7, 'august' : 8, 'september' : 9}
     days_dict = {'monday' : 0 , 'tuesday' : 1 , 'wednesday' : 2 , 'thursday' : 3, 'friday' : 4 , 'saturday' : 5 , 'sunday' : 6}
 
     df = pd.read_csv(CITY_DATA[city])
